@@ -1,0 +1,36 @@
+{
+  "driver": "com.mysql.jdbc.Driver",
+  "user": "root",
+  "password" :"123456",
+  "url" : "jdbc:mysql://127.0.0.1:3306/",
+  "db1" : "blog",
+  "db2" : "bloga",
+  "operations":[
+    {
+      "table1" : "essay",
+      "table2" : "article",
+      "rows" : [
+        {
+          "row1" : "title",
+          "row2" : "title"
+        }
+        ,
+        {
+          "row1" : "content",
+          "row2" : "content"
+        }
+        ,
+        {
+          "row1" : "tag",
+          "row2" : "tags"
+        }
+        ,
+        {
+          "row1" : "time",
+          "row2" : "create_time"
+        }
+      ]
+    }
+
+  ]
+}
